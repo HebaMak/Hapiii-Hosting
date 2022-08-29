@@ -1,0 +1,129 @@
+/*terquaz theme*/
+
+/*
+#69e0c5  light separator 
+#022522 dark  
+#00ffc0   
+#08d19b footer h3   
+*/ 
+
+
+ /* color #00ffc0 ............................................*/
+.navbar-default .navbar-brand ,
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.carousel-control:hover ,
+.about h2 span ,
+.about h3 span ,
+.features .feat h4 ,
+.testimonials span ,
+.price .price-box p ,
+.contact form input ,
+.contact form textarea ,
+.footer .copyright span {color: #00ffc0 ;}
+ /* color #00ffc0 ............................................*/
+
+
+
+/* background #00ffc0 ............................................*/
+
+/* .navbar-default .navbar-nav > li > a:active , ???*/
+.optionBox .gear-check ,
+.carousel-indicators li ,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:active ,
+.navbar-default .navbar-toggle .icon-bar , .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{background-color: #00ffc0 ;}
+/*background #00ffc0 ............................................*/
+
+ 
+ /* color #022522 ....................................................*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.optionBox .gear-check ,
+.carousel-captionP ,
+.carousel-control , 
+.carousel-control.active ,
+.about .lead ,
+.about h3 , h1 ,
+.features .feat span.glyphicon .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{ color:#022522;}
+ /* color #022522 ...........................................................*/
+
+
+
+
+ /* background #022522 ..........................................*/
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.optionBox .colorOption ,
+.navbar-default ,
+.carousel-indicators .active ,
+.footer {background-color: #022522;}
+ /* background #022522 ..................................................*/
+
+
+
+
+/* border .................................................................*/
+.navbar-default ,
+.carousel-indicators .active,
+.testimonials .carousel-indicators li.active{border:1px solid #022522;}
+
+.dropdown-menu ,
+.optionBox .colorOption{border:3px solid #00ffc0 ;}
+
+.navbar-default .navbar-toggle ,
+.carousel-indicators li ,
+.footer .img-thumbnail  {border: 1px solid #00ffc0 ;}
+/*border ..........................................................................*/
+
+
+
+
+
+/* realted colors ...............................................*/
+.footer h3{color: #08d19b;}
+
+.optionBox .colorOption{color :#69e0c5;}
+
+.dropdown-menu .divider {background-color: #69e0c5;}
+
+.navbar-default .navbar-nav > li > a:active ,
+.dropdown-menu > li > a:active {color:#330202;}
+/* realted colors ...................................................................*/
+
+
+/* color & background of scrollup button*/
+#scroll-up{
+color:#022522;
+background-color:#00ffc0;
+border:1px solid #022522;
+}
+
+#scroll-up:hover{
+color:#00ffc0 ; 
+background-color:#022522;
+border:1px solid #00ffc0 ;
+}

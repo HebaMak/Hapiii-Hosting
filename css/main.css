@@ -1,0 +1,614 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i');
+
+body {
+  font-family: 'Cabin', sans-serif;
+  padding-top:50px;
+}
+
+.h1 {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-weight:  bold;
+  margin-bottom: 50px;
+}
+
+
+/* start section tool box */
+.optionBox {
+  position: fixed;
+  top: 100px;
+  left: -160px;
+  z-index: 9999; 
+  transition: all .7s ease-in-out;
+}
+
+.optionBox.active {
+  left: 0;
+}
+
+.optionBox h4 {
+  text-align: center;
+}
+
+.optionBox .colorOption {
+  float: left;
+  padding:10px;
+  width:160px;
+}
+
+.optionBox .colorOption ul {
+  text-align: center;
+}
+
+.optionBox .colorOption ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.optionBox .gear-check { 
+  padding: 5px 8px 5px 5px;
+  cursor: pointer;
+  display: inline-block; 
+}
+/* end section tool box */
+
+/* start Navbar */
+.navbar-default .navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-right .dropdown-menu{
+  left: 0;
+  min-width: 180px;
+}
+/* end Navbar */
+
+
+/* start carousel */
+.carousel-caption {
+  bottom: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20%;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 17px;
+  height: 17px;
+}
+
+.carousel .carousel-inner  {
+  position: relative;
+}
+
+.carousel .carousel-inner .item .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.712);
+  width: 100%;
+  height: 100%;
+}
+
+.carousel .carousel-inner .item h2 ,
+.carousel .carousel-inner .item p {
+  color: #fff;
+}
+
+.carousel .carousel-inner .item img {
+  height: 500px; 
+  width: 1150px;
+}
+
+.carousel-control.left ,
+.carousel-control.right {
+  color: #fff;
+}
+/* end carousel */
+
+
+/* start about section */
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about .lead {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.about h3 {
+  font-weight:  bold;
+}
+/* end about section */
+
+
+/* start features section */
+.features {
+  background:#EEE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features .feat {
+  margin: 30px;
+}
+
+.features .feat h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features .feat p {
+  line-height: 2em;
+}
+
+.features .feat span.glyphicon {
+  font-size:25px;
+  margin-bottom: 10px;
+}
+/* end features section */
+
+
+/* start testimonial section */
+.testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonials .lead {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.testimonials span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.testimonials .carousel-inner {
+  min-height: 160px;
+  color: #000;
+}
+
+.testimonials .carousel-inner .item p {
+  width: 90%;
+  margin: auto;
+  color: #000;
+}
+
+.testimonials .carousel-indicators {
+  position: static; /* default value */
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.testimonials .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  background: none;
+  opacity: .3;
+  border:2px solid #fff; 
+  overflow: hidden;
+  margin: 5px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.testimonials .carousel-indicators li.active {
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+  background: none;
+  border-radius: 50%;
+}
+
+.testimonials .carousel-indicators li img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* end testimonial section */
+
+
+/* start section price table*/
+.price {
+  background: #EEE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.price .price-box {
+  background: #fff;
+  padding:10px;
+  border: 1px solid #DDD;
+  margin-bottom: 30px;
+}
+
+.price .price-box h2 { 
+  margin-top:5px;
+  margin-bottom:15px;
+  font-weight: bold; 
+}
+
+.price .price-box p {
+  font-size: 35px;
+  font-weight: bold;
+  width:100px;
+  height: 100px;
+  background-color: #def6f5;
+  line-height: 100px;
+  border:2px solid #FFF;
+  border-radius: 50%;
+  -webkit-transition-duration:.7s;
+  -moz-transition-duration:.7s;
+  -o-transition-duration:.7s;
+  transition-duration:.7s;
+}
+
+.price .price-box:hover p {
+  -webkit-transform: scale(1.1,1.1) rotate(360deg);
+  -moz-transform: scale(1.1,1.1) rotate(360deg);;
+  -o-transform: scale(1.1,1.1) rotate(360deg);;
+  transform: scale(1.1,1.1) rotate(360deg);;
+  border:2px solid  #c6e5e3;	
+}
+
+.price .price-box ul {
+  line-height: 250%;
+  font-size: 18px;
+}
+
+.price .price-box a {
+  margin-bottom: 5px;
+}
+/* end section price table*/
+
+
+/* start our team section */
+.our-team {
+  background:url(../img/background1.jpg) no-repeat center center fixed;
+  width:100%;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.our-team .team {
+  background-color: rgba(2,2,2,.9);
+  min-height: 600px;
+  color:#fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.our-team .team .h1 {
+  color:#fff;
+  margin-bottom: 60px;
+}
+
+.our-team .person {
+  margin-bottom: 40PX;
+}
+
+.our-team .person img {
+  max-width: 200px;
+  max-height: 200px;
+}
+/* end our team section */
+
+
+/* start subscribe*/
+.subscribe {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: #EEE;
+}
+
+.subscribe p {
+  margin-bottom: 30px;
+}
+
+.subscribe .form-control {
+  border-radius:0;
+  margin-right: -5px;
+  width: 300px;
+}
+
+.subscribe button {
+  border-radius: 0;
+}
+/* end subscribe */
+
+
+/* start stats section */
+.statistics {
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  min-height: 400px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.statistics .data {
+  background-color: rgba(2,2,2,.9);
+  min-height: 400px;
+  color:#B6B5B5;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.statistics .data .h1 {
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.statistics .stats {
+  margin-bottom: 40px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.statistics .stats:hover {
+  color:#fff;
+}
+
+.statistics p {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.statistics span {
+  font-size: 18px;
+}
+/* end stats section */
+
+
+/* start skills section */
+.skills {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.skills .progress {
+  height: 36px;
+}
+
+.skills .progress-bar {
+  line-height: 36px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.skills .skills-progress {
+  margin-bottom: 60px;
+}
+
+.skills .skills-info h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.skills .skills-info p {
+  line-height: 1.8em
+}
+/* end skills section */
+
+
+/* start contact section */
+.contac {
+  background: url(../img/background3.jpg) no-repeat center center fixed;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact .fields {
+  background-color: rgba(2,2,2,.8);
+  min-height: 500px;
+  color:#FFF;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.contact .fields .h1 {
+  color: #fff;
+}
+
+.contact .fields p {
+  margin-bottom: 40px;
+}
+
+.contact form input ,
+.contact form textarea {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact form textarea {
+  height: 110px;
+}
+/* end contact section */
+
+
+/* start section our clients */
+.our-clients {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #EEE;
+}
+
+.our-clients img {
+  opacity: .7;
+  filter:alpha(opacity=70); /*opacity for internet explorer*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.our-clients img:hover {
+  opacity: 1;
+}
+/* end section our clients */
+
+
+/* start footer */
+.footer {
+  color: #888 ;
+  padding-top: 10px;
+}
+
+.footer .parts {
+  margin-bottom: 30px;
+}
+
+.footer a {
+  color: #888;
+}
+
+.footer a:hover {
+  color: #FFF;
+}
+
+.footer h3 {
+  letter-spacing: 1px;
+  margin: 20px 0 20px 0 ;
+}
+
+.footer .three-col {
+  overflow: hidden;
+}
+
+.footer .three-col li {
+  float: left;
+  width: 33.33333%;
+  padding:10px;
+}
+
+
+.footer .social-list {
+  overflow: hidden;
+  margin:20px 0 10px 0;
+}
+
+.footer .social-list li {
+  float: left;
+  margin-right: 3px;
+}
+
+.footer .social-list img {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.footer .media img {
+  width: 64px; 
+  height: 64px;
+}
+
+.footer .img-thumbnail {
+  width: 150px;
+  height: 100px;
+  background-color: rgba(2,3,37,.9);
+  margin-bottom: 5px;
+}
+
+.footer .copyright {
+  background-color: #EEE;;
+  font-size: 18px;
+  color: rgb(2,3,37);
+  padding: 10px 0 ;
+  margin-top: 20px;
+}
+/* end footer */
+
+
+/* start scroll up */
+#scroll-up {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  
+  right: 30px;
+  bottom: 25px;
+  z-index: 99999;
+  display: none;
+  cursor: pointer;
+  padding: 2px 0 0 0;
+}
+/* end scroll up */
+
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}

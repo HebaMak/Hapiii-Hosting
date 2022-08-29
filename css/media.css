@@ -1,0 +1,33 @@
+/* smart phone and tablets from 0 to 767px */
+@media (max-width:767px){
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: blue;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+color: #020325;
+background-color: #696de0 ;}
+
+.navbar-nav > li > a { 
+padding-top: 3px;
+padding-bottom: 10px;}
+
+.subscribe .form-control { 
+margin:20px auto;
+width: 400px;  }
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+max-height: none;}
+
+.awesomeWorkImg{text-align: center;}
+}
+
+/* smal screen from 768px to 991px*/
+@media (min-width:768px)and(max-width:991px){}
+
+/* medieum screen from 992px to 1199px*/
+@media (min-width:992px)and(max-width:1199px){}
+
+/*large screen from 1200px*/
+@media (min-width: 1200px){}

@@ -1,0 +1,142 @@
+/*blue theme*/
+
+/*
+#696de0  light blue separator
+#020325  dark blue
+blue
+#0895D1 terquaz footer h3
+*/
+
+
+
+
+ /* color blue ............................................*/
+.navbar-default .navbar-brand ,
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.carousel-control:hover ,
+.about h2 span ,
+.about h3 span ,
+.features .feat h4 ,
+.testimonials span ,
+.price .price-box p ,
+.contact form input ,
+.contact form textarea ,
+.footer .copyright span {color: blue;}
+ /* color blue ............................................*/
+
+
+
+/* background blue............................................*/
+
+/* .navbar-default .navbar-nav > li > a:active ,  ???*/
+.optionBox .gear-check ,
+.carousel-indicators li ,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:active ,
+.navbar-default .navbar-toggle .icon-bar , .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{background-color: blue;}
+/*background blue ............................................*/
+
+ 
+ /* color #020325 ....................................................*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+
+.optionBox .gear-check ,
+.carousel-captionP ,
+.carousel-control , 
+.carousel-control.active ,
+.about .lead ,
+.about h3 , h1 ,
+.features .feat span.glyphicon .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{ color:#020325;}
+ /* color #020325 ...........................................................*/
+
+
+
+
+ /* background #020325 ..........................................*/
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.optionBox .colorOption ,
+.navbar-default ,
+.carousel-indicators .active ,
+.footer {background-color: #020325;}
+ /* background #020325 ..................................................*/
+
+
+
+
+/* border .................................................................*/
+.navbar-default ,
+.carousel-indicators .active,
+.testimonials .carousel-indicators li.active{border:1px solid #020325;}
+
+.dropdown-menu ,
+.optionBox .colorOption{border:3px solid blue;}
+
+.navbar-default .navbar-toggle ,
+.carousel-indicators li ,
+.footer .img-thumbnail  {border: 1px solid blue;}
+/*border ..........................................................................*/
+
+
+
+
+
+/* realted colors ...............................................*/
+.footer h3{color: #0895D1;}
+
+.optionBox .colorOption{color :#696de0;}
+
+.dropdown-menu .divider {background-color: #696de0;}
+
+.navbar-default .navbar-nav > li > a:active ,
+.dropdown-menu > li > a:active {color:#330202;}
+/* realted colors ...................................................................*/
+
+
+
+/* color & background of scrollup button*/
+#scroll-up{
+color:#0895D1;
+background-color:#020325;
+border:1px solid #0895D1;
+}
+
+
+#scroll-up:hover{
+color:#020325; 
+background-color:#0895D1;
+border:1px solid #020325;
+}
+
+
+
+
+
+
+
+

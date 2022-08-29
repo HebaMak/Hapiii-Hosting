@@ -1,0 +1,141 @@
+/* red theme */
+
+/*
+#e06969  light red separator 
+#250202 dark red
+red
+#d10808 footer h3   
+*/ 
+
+/*
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #02020a;
+background-color: blue;
+}
+
+*/
+
+ /* color red............................................*/
+.navbar-default .navbar-brand ,
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.carousel-control:hover ,
+.about h2 span ,
+.about h3 span ,
+.features .feat h4 ,
+.testimonials span ,
+.price .price-box p ,
+.contact form input ,
+.contact form textarea ,
+.footer .copyright span {color: red;}
+ /* color red............................................*/
+
+
+
+/* background red............................................*/
+
+/*.navbar-default .navbar-nav > li > a:active , ??? */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.optionBox .gear-check ,
+.carousel-indicators li ,
+
+.dropdown-menu > li > a:active ,
+.navbar-default .navbar-toggle .icon-bar , .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{background-color: red;}
+/*background red............................................*/
+
+ 
+ /* color #250202 ....................................................*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.optionBox .gear-check ,
+.carousel-captionP ,
+.carousel-control , 
+.carousel-control.active ,
+.about .lead ,
+.about h3 , h1 ,
+.features .feat span.glyphicon .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:focus ,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{ color:#250202;}
+ /* color #250202 ...........................................................*/
+
+
+
+
+ /* background #250202 ..........................................*/
+.navbar-default .navbar-nav > li > a,
+.dropdown-menu > li > a ,
+.dropdown-menu > li > a:focus ,
+.dropdown-menu ,
+.optionBox .colorOption ,
+.navbar-default ,
+.carousel-indicators .active ,
+.footer {background-color: #250202;}
+ /* background #250202 ..................................................*/
+
+
+
+
+/* border .................................................................*/
+.navbar-default ,
+.carousel-indicators .active,
+.testimonials .carousel-indicators li.active{border:1px solid #250202;}
+
+.dropdown-menu ,
+.optionBox .colorOption{border:3px solid red;}
+
+.navbar-default .navbar-toggle ,
+.carousel-indicators li ,
+.footer .img-thumbnail  {border: 1px solid red;}
+/*border ..........................................................................*/
+
+
+
+
+
+/* realted colors ...............................................*/
+.footer h3{color: #d10808;}
+
+.optionBox .colorOption{color :#e06969;}
+
+.dropdown-menu .divider {background-color: #e06969;}
+
+.navbar-default .navbar-nav > li > a:active ,
+.dropdown-menu > li > a:active {color:#330202;}
+/* realted colors ...................................................................*/
+
+
+/* color & background of scrollup button*/
+#scroll-up{
+color:red; 
+background-color:#250202;
+border:1px solid red;
+}
+
+
+#scroll-up:hover{
+color:#250202;
+background-color:red;
+border:1px solid #250202;
+}
